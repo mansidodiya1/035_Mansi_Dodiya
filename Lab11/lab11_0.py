@@ -111,7 +111,7 @@ features
 
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(iris_data,
-        iris_labels, random_state=26)
+        iris_labels, random_state=35)
 
 print(X_train.shape, X_test.shape)
 
